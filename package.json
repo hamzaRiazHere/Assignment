@@ -7,7 +7,7 @@
     "build": "tsc --project ./",
     "test": "jest --collectCoverage --forceExit --detectOpenHandles"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "node"
   },
   "author": "",

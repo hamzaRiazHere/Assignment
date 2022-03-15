@@ -2,9 +2,6 @@ import { readFileSync } from 'fs';
 import { Stock } from '../interfaces/stock';
 import { Transaction } from '../interfaces/transaction';
 
-
-// let data:string = readFileSync(`./../data/stock.json`, 'utf-8');
-
 /**
  * Returns Array.
  * @function readFile

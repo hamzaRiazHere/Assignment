@@ -1,5 +1,5 @@
-import { getTransactionsByOrderType, getTotalTransactionsForSku } from './../functions/transactions';
-import transactions from '../data/transactions.json';
+import { getTransactionsByOrderType, getTotalTransactionsForSku } from '../functions/transactions';
+import transactions from './data/transactions.json';
 
 
 describe('functions related to transactions are being tested with positive and negative testing', () => {

@@ -1,6 +1,6 @@
-import { getTotalTransactionsForSku } from './../functions/transactions';
-import { getStock } from './../functions/stocks';
-import { Stock, StockQntity }  from './../types';
+import { getTotalTransactionsForSku } from './functions/transactions';
+import { getStock } from './functions/stocks';
+import { Stock, StockQntity }  from './types';
 import stocks from '../data/stock.json';
 import transactions from '../data/transactions.json';
 

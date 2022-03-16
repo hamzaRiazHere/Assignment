@@ -1,5 +1,5 @@
 import {  StockQntity } from '../types';
-import { getCurrentSockLevel } from '../get-stock';
+import { getCurrentSockLevel } from './../index';
 
 describe('function of main file  is being tested with positive and negative testing', () => {
    

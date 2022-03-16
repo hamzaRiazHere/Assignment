@@ -1,5 +1,4 @@
-import { Transaction }  from './interfaces/transaction';
-import { Stock } from './interfaces/stock';
+import { Stock, Transaction }  from './interfaces';
 import { getTotalTransactionsForSku } from './transactions';
 import  { getStock } from './stocks';
 import { readFile } from './helper';

@@ -1,4 +1,4 @@
-import { Transaction }  from '../interfaces/transaction';
+import { Transaction }  from '../interfaces';
 
 
 /**
@@ -12,8 +12,8 @@ import { Transaction }  from '../interfaces/transaction';
 
 let getTransactionsByOrderType =  async (sku:string, transactions:Transaction[], type:string):Promise<number> => {
     let  totalTransactions =  transactions.filter((t:Transaction) => t.sku === sku && t.type === type);
-    let final = totalTransactions.reduce((p:number,c:Transaction) => p+c.qty  ,0);
-    return final;
+    let sum = totalTransactions.reduce((p:number,c:Transaction) => p+c.qty  ,0);
+    return sum;
 }
 
 
@@ -31,4 +31,4 @@ let getTotalTransactionsForSku = async (sku:string,transactions:Transaction[]): 
     return orderedTransactionsQty-refundTransactionsQty;
 }
 
-export  {  getTotalTransactionsForSku }
+export  {  getTransactionsByOrderType, getTotalTransactionsForSku }

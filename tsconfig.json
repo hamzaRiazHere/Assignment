@@ -9,7 +9,7 @@
     "module": "commonjs",                                /* Specify what module code is generated. */
     "outDir": "dist",
     "sourceMap": true,
-    "types": ["node"] ,
+    "types": ["node","jest"] ,
 
     /* Type Checking */
     "strict": true,                                      /* Enable all strict type-checking options. */

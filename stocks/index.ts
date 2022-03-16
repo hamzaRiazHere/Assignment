@@ -1,5 +1,5 @@
 
-import { Stock }  from '../interfaces/stock';
+import { Stock }  from '../interfaces';
 
 
 /**

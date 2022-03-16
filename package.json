@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --project ./",
+    "start": "npx ts-node ./src/get-stock/index",
     "test": "jest --collectCoverage --forceExit --detectOpenHandles"
   },
   "jest": {

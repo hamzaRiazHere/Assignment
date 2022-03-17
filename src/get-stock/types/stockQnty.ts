@@ -1,4 +1,4 @@
 export type StockQntity = {
-    sku: string;
-    qty: number;
-}
+  sku: string;
+  qty: number;
+};

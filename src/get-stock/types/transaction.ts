@@ -1,5 +1,5 @@
-export type Transaction =  {
-    sku: string;
-    type: string;
-    qty:number
-}
+export type Transaction = {
+  sku: string;
+  type: string;
+  qty: number;
+};

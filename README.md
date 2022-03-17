@@ -10,3 +10,8 @@
 1.  Run command "npm install" on your terminal if not already done in previous steps.
 2.  Run command "npm run test" to run testing.
 3.  test results will be logged on your console.
+
+### eslint
+
+1. Run command "npm install" on your terminal if not already done in previous steps.
+2. Run command "npm run lint"

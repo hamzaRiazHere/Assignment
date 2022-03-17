@@ -1,4 +1,4 @@
 export type Stock = {
-    sku: string;
-    stock: number;
-}
+  sku: string;
+  stock: number;
+};
